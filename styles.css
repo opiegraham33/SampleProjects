@@ -1,0 +1,95 @@
+/* Stylesheet for Website Project */
+
+/* Mobile Layout */
+img {
+	width: 100%;
+}
+
+body {
+	background-color: black;
+}
+
+/* Style for nav */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 0.75em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+nav li {
+	background-color: gray;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.4em;
+}
+
+nav li a {
+	color: purple;
+	text-decoration: none;
+}
+
+/* Style for main element */
+main {
+	color: white;
+}
+
+main img {
+	width: 30%;
+	float: right;
+	margin-right: 100px;
+}
+
+/* Style for h2 element */
+h2 {
+	color: white;
+}
+
+/* Style for wrapper id */
+#wrapper {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer p {
+	background-color: gray;
+	text-align: center;
+	color: purple;
+	border-radius: 2em;
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of
+830px. */
+
+@media only screen and (min-width: 830px) {
+	
+form {
+	background-color: gray;
+	padding: 2em;
+	border-radius: 2em;
+}
+
+h2 {
+	text-decoration: underline;
+}
+
+body {
+	margin: 0;
+}
+
+#wrapper {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+}
